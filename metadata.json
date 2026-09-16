@@ -1,0 +1,6 @@
+{
+  "name": "FutAoVivo",
+  "description": "Plataforma esportiva de placares ao vivo, telemetria de partidas de futebol, grade de jogos e links diretos de transmissão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
