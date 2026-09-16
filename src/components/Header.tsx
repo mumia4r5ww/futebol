@@ -1,5 +1,6 @@
 import React from 'react';
 import { TabType } from '../types';
+import { getWhatsAppLink } from '../utils/whatsapp';
 
 interface HeaderProps {
   currentTab: TabType;
@@ -32,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({
 
         {/* Clean Quick Link to WhatsApp */}
         <a
-          href="https://wa.me/5511993881626?text=Ol%C3%A1%2C%20quero%20assistir%20aos%20jogos%20ao%20vivo"
+          href={getWhatsAppLink()}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center bg-[#10b981] hover:bg-[#4edea3] text-[#003824] px-3.5 py-1.5 rounded-xl font-display font-black text-xs uppercase tracking-wide transition-all shadow-sm active:scale-95"

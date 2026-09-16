@@ -1,10 +1,10 @@
 /**
  * WhatsApp integration utility
- * WhatsApp: 11-99388-1626
+ * WhatsApp: +55 (11) 94046-8086
  */
 
-export const WHATSAPP_DISPLAY_NUMBER = '(11) 99388-1626';
-export const WHATSAPP_RAW_NUMBER = '5511993881626';
+export const WHATSAPP_DISPLAY_NUMBER = '+55 (11) 94046-8086';
+export const WHATSAPP_RAW_NUMBER = '5511940468086';
 
 export const getWhatsAppLink = (matchText?: string) => {
   const text = matchText 
